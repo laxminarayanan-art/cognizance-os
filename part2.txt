@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+ul {
+  list-style-type:NONE;
+  margin: 10px;
+  padding: 30px;
+  overflow:visible;
+}
+li a {
+  display:-ms-inline-flexbox;
+  padding: 20px;
+  background-color: #c18d08;
+}
+li {
+  float: right;
+}
+.image{
+    float:left;
+    overflow: hidden;
+    padding:10px;
+    width:40%;
+    height:20%;
+}
+.con{
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: 100px;
+    background-color: black;
+    width:auto;
+    float:center;
+    height:auto;
+}
+.cen{
+    background-color: blanchedalmond;
+    height:80px;
+}
+.flo{
+    float:left;
+    color:rgb(245, 239, 246);
+    font-size: 35px;
+    overflow:hidden;
+}
+#fade_out {
+        position:relative;
+        height:100%;
+        width:auto;
+        margin:0 auto;
+      }
+      
+      #fade_out img {
+        position:absolute;
+        left:0;
+        -webkit-transition: opacity 2s linear;
+        -moz-transition: opacity 2s linear;
+        transition: opacity 2s linear;
+      }
+      
+      #fade_out img.top:hover {
+        opacity:0;
+      }
+      * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+p{
+  font-size: 20PX;
+}
+    
+</style>
+</head>
+<body style="background-color: rgb(151, 222, 46);">
+    <div style="background-color:rgb(165, 132, 88)">
+        <img style="float:left;width:95px;height:85px;" src="C:\Users\laxmi\Downloads\pngwing.com (1).png">
+        <Center><h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: left; float:left;border:3px;">&nbsp;SAVE OUR EARTH&nbsp;&nbsp;&nbsp;&nbsp;</h1></Center>
+        <img style="float:left;width:95px;height:85px;" src="C:\Users\laxmi\Downloads\kisspng-stock-photography-join-hands-clip-art-volunteer-5b178ad6e0ddb6.8840084615282695269211.png">
+        <ul>
+            <h2><li><a href="#HO">HOME</a></li></p></h2>
+            <H2><li><a href="#ne">VIDEO</a></li></H2>
+            <H2><li><a href="#cont">CONTACT</a></li></H2>
+            <H2><li><a href="#abo">DETAILS</a></li></H2>
+        </ul>
+    </div>
+    <div id="fade_out">
+        <center><img class="bottom" style="width:1000px;height:850px;" src="C:\Users\laxmi\Downloads\pngegg (1).png">
+        <img class="top" style="width:1000px;height:950px;" src="C:\Users\laxmi\Downloads\pngegg.png"></center>
+      </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div>
+       <h2 style="padding:1%;float:left;width:47%;background-color:black;color:white;font-size:25px;">About Earth:
+            <p style="float:left;
+            font-size:25px;">Earth, our home, is the third planet from the sun. 
+                While scientists continue to hunt for clues of life beyond Earth, 
+                our home planet remains the only place in the universe where 
+                we've ever identified living.Our planet is currently facing an increasing number of environmental challenges, which
+                include climate change, global warming, etc.<br><br></p></h2>
+        &nbsp;&nbsp;
+        <h2 style="padding:2%;border:4px solid aquamarine; float:left;width:47%;background-color:rgb(130, 128, 128);color:white;font-size:25px;"><b>GLOBALWARMING:
+        <p style="background-color:rgb(130, 128, 128);color:white;font-size:25px;">
+        Global warming, the phenomenon of increasing average air temperatures near the surface of Earth over the
+        past one to two centuries. Climate scientists have since the mid-20th century gathered detailed observations 
+        of various weather phenomena and of related influences on climate. 
+      </p></b></h2>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="https://snowbrains.com/wp-content/uploads/2019/08/climate_change_buzzwords.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-5ebbb85c--greenhouseeffectchart_500x.png?v=1603816201" alt="Forest" style="width:100%;height:80%;">
+        </div>
+        <div class="column">
+          <img src="https://e3.365dm.com/22/01/2048x1152/skynews-global-warming-climtae_5644450.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      <div>
+     <h2 style="padding:1%;float:left;width:47%;border:4px solid aquamarine;background-color:rgb(159, 56, 56);color:white;font-size:25px;">CLIMATIC CHANGES:
+            <p style="float:left;
+            font-size:25px;">Climate change refers to long-term shifts in temperatures and weather patterns.These shifts may be natural, such as through variations in the solar cycle. 
+          But since the 1800s, human activities have been the main driver of climate change, due to burning fossil fuels like coal, oil and gas.<br><br><br></p></h2>
+        &nbsp;&nbsp;
+        <h2 style="padding:2%; float:left;width:47%;background-color:rgb(42, 107, 54);color:white;font-size:25px;"><b>GLOBALWARMING AND CLIMATIC CHANGES:
+        <p style=color:white;font-size:25px;">
+          “Global warming” refers to the rise in global temperatures due mainly to the increasing concentrations of greenhouse gases in the atmosphere. “Climate change” refers to the 
+          increasing changes in the measures of climate over a long period of time. &nbsp;&nbsp;<br></p></b></h2>
+      </div>
+<div class='gradient_line_extra_margin'>
+<BR><BR><H2 style="float:left;"><BR><BR>WEATHER:
+
+<p>Weather refers to atmospheric conditions that occur locally over short periods of time&mdash;from minutes to hours or days. Familiar examples include rain, snow, clouds, winds, floods or thunderstorms.</p>
+
+<p>Climate, on the other hand, refers to the long-term regional or even global average of temperature, humidity and rainfall patterns over seasons, years or decades.</p>
+
+<h2><b>What Is sGlobal Warming?</b></h2></div>
+
+<div class='image_module column-width' style='width:px;'>
+<figure class='inline_figure'>
+<a class='' href='/internal_resources/2540' target='_blank'>
+<img alt='global warming graphic' style="height:10%;" src='https://climate.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbkFuIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--568a50e3e868676e1118941456784cc9df2a8de7/shutterstock_98702825-768px-80.jpg' style='width:px'>
+</a>
+
+</figure>
+</div>
+
+<p>Global warming is the long-term heating of Earth&rsquo;s climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth&rsquo;s atmosphere. The term is frequently used interchangeably with the term climate change, though the latter refers to both human- and naturally produced warming and the effects it has on our planet. It is most commonly measured as the average increase in Earth&rsquo;s global surface temperature.</p>
+
+<p>Since the pre-industrial period, human activities are estimated to have increased Earth&rsquo;s global average temperature by about 1 degree Celsius (1.8 degrees Fahrenheit), a number that is currently increasing by 0.2 degrees Celsius (0.36 degrees Fahrenheit) per decade. It is unequivocal that human influence has warmed the atmosphere, ocean, and land. </p>
+
+<h2><b>What Is Climate Change?</b></h2>
+
+<p>Climate change is a long-term change in the average weather patterns that have come to define Earth&rsquo;s local, regional and global climates. These changes have a broad range of observed effects that are synonymous with the term.</p>
+
+<p>Changes observed in Earth&rsquo;s climate since the early 20th century are primarily driven by human activities, particularly fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth&rsquo;s atmosphere, raising Earth&rsquo;s average surface temperature. These human-produced temperature increases are commonly referred to as global warming. Natural processes can also contribute to climate change, including internal variability (e.g., cyclical ocean patterns like El Ni&ntilde;o, La Ni&ntilde;a and the Pacific Decadal Oscillation) and external forcings (e.g., volcanic activity, changes in the Sun&rsquo;s energy output, variations in Earth&rsquo;s orbit).</p>
+
+<p>Scientists use observations from the ground, air and space, along with <a href="https://climatekids.nasa.gov/climate-model/" target="_blank">theoretical models</a>, to monitor and study past, present and future climate change. Climate data records provide evidence of climate change key indicators, such as global land and ocean temperature increases; rising sea levels; ice loss at Earth&rsquo;s poles and in mountain glaciers; frequency and severity changes in extreme weather such as hurricanes, heatwaves, wildfires, droughts, floods and precipitation; and cloud and vegetation cover changes, to name but a few.</p>
+
+<h4><b>Find Out More: A Guide to  Global Climate Change Website</b></h4>
+
+<p>This website provides a high-level overview of some of the known causes, effects and indications of global climate change:</p>
+
+<p><a href="https://climate.nasa.gov/evidence/"><b>Evidence.</b></a> Brief descriptions of some of the key scientific observations that our planet is undergoing abrupt climate change.</p>
+
+<p><a href="https://climate.nasa.gov/causes/"><b>Causes.</b></a> A concise discussion of the primary climate change causes on our planet.</p>
+
+<p><a href="https://climate.nasa.gov/effects/" target="_blank"><b>Effects.</b></a> A look at some of the likely future effects of climate change, including U.S. regional effects.</p>
+
+<p><b><a href="https://climate.nasa.gov/vital-signs">Vital Signs.</a> </b>Graphs and animated time series showing real-time climate change data, including atmospheric carbon dioxide, global temperature, sea ice extent and ice sheet volume.</p>
+
+<h4><b>Other Resources</b></h4>
+
+<p><a href="https://svs.gsfc.nasa.gov/" target="_blank"><b>Goddard Scientific Visualization Studio.</b></a> An extensive collection of animated climate change and Earth science visualizations.</p>
+
+<p><b><a href="https://sealevel.nasa.gov/" target="_blank">Sea Level Change Portal.</a> </b>NASA&#39;s portal for an in-depth look at the science behind sea level change.</p>
+
+<p><b><a href="https://earthobservatory.nasa.gov/" target="_blank">NASA&rsquo;s Earth Observatory.</a> </b>Satellite imagery, feature articles and scientific information about our home planet, with a focus on Earth&rsquo;s climate and environmental change.</p>
+
+</H2>
+  <h1>GREENHOUSE EFFECT:</h1>
+  <div>
+    The greenhouse effect is a process that occurs when gases in Earth's atmosphere trap the Sun's heat. This process makes Earth much warmer than it would be without an atmosphere. The greenhouse effect is one of the things that makes Earth a comfortable place to live.
+  </div> 
+  <div>
+<h1>WAYS TO GET RID:</h1>
+<h2>What reduces the greenhouse effect on Earth?</h2>
+
+<p>Just like a glass greenhouse, Earth's greenhouse is also full of plants! Plants can help to balance the greenhouse effect on Earth. All plants — from giant trees to tiny phytoplankton in the ocean — take in carbon dioxide and give off oxygen.</p>
+
+<p>The ocean also absorbs a lot of excess carbon dioxide in the air. Unfortunately, the increased carbon dioxide in the ocean changes the water, making it more acidic. This is called <a href="/acid-ocean">ocean acidification</a>.</p>
+
+<p>More acidic water can be harmful to many ocean creatures, such as certain shellfish and coral. Warming oceans — from too many greenhouse gases in the atmosphere — can also be harmful to these organisms. Warmer waters are a main cause of <a href="/coral-bleaching">coral bleaching</a>.</p>
+<h2>WHAT REDUCES Global warming</h2
+  <h2><strong><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Recycle more </span></span></strong></h2>
+  <h3><strong><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Drive less </span></span></strong></h3>
+  <h3><strong><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Plant trees</span></span></strong></h3>
+  <p><span style="font-family:Times New Roman,serif"><span style="font-size:medium">Deforestation plays an important role in global warming and climatic changes. Planting trees is helpful as they absorb carbon dioxide from the atmosphere and regulate the climate. Hence, there is a dire need to plant more trees because a single tree can absorb one ton of CO<sub>2</sub> in its lifetime.</span></span></p>
+
+<h3><strong><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Switch to renewable energy </span></span></strong></h3>
+
+<p><span style="font-family:Times New Roman,serif"><span style="font-size:larger">One of the most effective ways to prevent global warming is to start using renewable energy sources such as solar, geothermal, wind and biomass, and stop using fossil fuels. Use renewable energy resources to supply power to your home.</span></span></p>
+
+<h3><strong><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Use energy-efficient devices </span></span></strong></h3>
+
+<p><span style="font-family:Times New Roman,serif"><span style="font-size:larger">By investing in energy-efficient devices such as bulbs, LED lights or solar-powered shower system, you can reduce the energy consumption and help in the production of clean energy. It is not only the cheapest way to reduce greenhouse gas emissions but it also reduces the amount of carbon dioxide released in the atmosphere.</span></span></p>
+
+<h3><strong><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Use less hot water </span></span></strong></h3>
+
+<p><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Do you know you can save 500 pounds of CO<sub>2 </sub>per year if you switch to cold showers and stop using hot water to wash clothes? Try installing energy-efficient geysers that consume less energy.</span></span></p>
+
+<h3><strong><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Turn off electronic devices</span></span></strong></h3>
+
+<p><span style="font-family:Times New Roman,serif"><span style="font-size:larger">Ensure turning off your electronic devices such as television, computer, stereo, music player when not in use. This can help in saving fuel that is used to generate electricity which in turn can reduce thousand tons of carbon dioxide released in the atmosphere.</span></span></p>
+<center><h1>THANKYOU</h1></center>
+  </div>
+ </div>
+</body>
