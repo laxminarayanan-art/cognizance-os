@@ -1,0 +1,51 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+
+<h1>Addition</h1>
+<tr>
+<form action="add" method="POST"><table>
+    {% csrf_token %}
+
+    <td>Enter first number: <input type="text" name="num1"><br><br></td>
+    &#10133;<br>
+    <td>Enter second number: <input type="text" name="num2"><br><br></td></table>
+    <input type="submit">
+</form>
+</tr>
+<h1>Subtraction</h1>
+<tr>
+<form action="sub" method="POST"><table>
+    {% csrf_token %}
+
+   <td> Enter first number: <input type="text" name="num1"><br><br></td>
+   &#10134;<br>
+    <td>Enter second number: <input type="text" name="num2"><br><br></td></table>
+    <input type="submit">
+</form>
+</tr>
+<h1>Multiplication</h1>
+<tr>
+<form action="multi" method="POST"><table>
+    {% csrf_token %}
+
+    <td>Enter first number: <input type="text" name="num1"><br><br></td>
+    &#10006;<br>
+    <td>Enter second number: <input type="text" name="num2"><br><br></td>
+    </table>
+    <input type="submit">
+</form>
+</tr>
+<h1>Division</h1>
+<tr>
+<form action="div" method="POST"><table>
+    {% csrf_token %}
+
+    <td>Enter first number: <input type="text" name="num1"><br><br></td>
+    &#10135;<br>
+    <td>Enter second number: <input type="text" name="num2"><br><br></td></table>
+    <input type="submit">
+</form>
+</tr>
+
+{% endblock %}

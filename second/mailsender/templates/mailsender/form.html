@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>send mail</title>
+    </head>
+    <body style="background-color:burlywood">
+        <center><img style="border-color: black;border-radius: 14px 14px;" src="https://tse3.mm.bing.net/th?id=OIP.nfqmKxTYPa2lbcb4H6P-MQHaEK&pid=Api&P=0" ></center>
+        <center><form style="background-color:rgba(28, 28, 232, 0.9); opacity:initial;color: bisque; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:xx-large;" method="post">
+            {% csrf_token %}
+            <h1> FAST MAIL SENDER</h1>
+            Subject:<br>
+            <input type="text" name="subject"><br>
+            Message:<br>
+            <textarea name="message" cols="30" rows="10"></textarea><br>
+            Email id:<br>
+            <input type="email" name="email"><br>
+            <button type="submit">send</button>
+        </form></center>
+
+    </body>
+</html>
